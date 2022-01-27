@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1. kapitola - Programové a datové soubory</title>
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+    <header>
+        <h1>1. kapitola - Programové a datové soubory</h1>
+        <ul>
+            
+            <li><a href="../../index.html"> Hlavní menu</a></li>
+            <li>kapitola 1 | Programové a datové soubory - aktuální kapitola </li>
+            <li><a href="../b/index.html">kapitola 2 | Operační systémy </a></li>
+            <li><a href="../c/index.html">kapitola 3 | Ovladače, firmware a utility</a></li>
+            <li><a href="../d/index.html">kapitola 4 | Aplikační software</a></li>
+            <li><a href="../e/index.html">kapitola 5 | Instalace programů</a></li>
+        </ul>
+    </header>
+    
+    <main>
+        <h2>Soubory a jejich vlastnosti </h2>
+        <P>
+        <strong>Soubor</strong> (file) je množina souvisejících dat uložených na diskové jedonotce. Název souboru je obvykle tvořen jménem (ve Windows až 254  
+        znaků) a příponou, která naznačuje <strong>typ souboru</strong>. K dalším vlastnostem souboru patří jeho velikost, autor (vlastník), datum vytvoření, 
+        datum změny, atributy, přístupová práva apod. 
+        </p>
+    <h2>Adresáře (složky) </h2>
+        <p>K přehlednější práci se soubory slouží systém <strong>adresářů</strong> či složek (directories, folders). Adresáře tvoří na disku typicky hierarchickou 
+        strukturu (tree - strom); základem je tzv. <strong>kořenový adresář</strong> (root) označený 
+        symbolem „/“ (Unix, Linux), nebo „\“ (Windows). Každý adresář může 
+        obsahovat soubory i <strong>podadresáře</strong> (subdirectories)
+        </p>
+    <figure>
+    <img src="../../img/tree.jpg" alt="Strom adresářů v konzoli">
+        <figcaption>Strom adresářů v konzoli</figcaption>
+    
+    </figure>
+        
+    <h3>Adresářová cesta</h3>   
+       <p>  <strong>Cesta</strong> (path) vyjadřuje umístění souboru vždy směrem od nejvyššího adresáře: C:\XAMPP\mysql\bin\mysql.exe. Pro operace se soubory využíváme někdy 
+    <strong>zástupné znaky</strong> (wildcards)
+</p>
+    <ul>
+        <li>symbol <strong>*</strong> nahrazuje v názvu libovolný počet znaků (např. *.*);<li>
+            <li> symbol <strong>?</strong> nahrazuje jeden libovolný znak (např. s?s.txt);</li>
+    </ul>
+    <figure>
+        <img src="../../img/explorer.jpg" alt="Průzkumník ve Windows">
+        <figcaption>Průzkumník ve Windows</figcaption>
+    </figure>
+    <h2>Programové soubory</h2>
+        <p>Programové soubory obsahují <em>instrukce</em>, podle nichž procesor ve 
+        spolupráci s dalšími hardwarovými komponentami plní konkrétní úlohy. 
+        Mohou být uloženy v již zkompilované <strong>binární podobě</strong> (nejčastěji ve 
+        strojovém kódu pro danou platformu), nebo ve <strong>zdrojovém kódu</strong>, obsahujícím příkazy určitého programovacího jazyka. Mezi programové 
+        soubory můžeme zařadit také <strong>skripty</strong>, soubory instrukcí v textové podobě, které ke svému spuštění vyžadují speciální program - <strong>interpret</strong>
+    <h2>Programové knihovny</h2>
+        <p>Větší programy jsou tvořeny <strong>programovými knihovnami</strong> (runtime libraries), 
+        speciálními soubory s připravenými funkcemi, které programy využívají pro 
+        svůj běh. Ve <a href="https://en.wikipedia.org/wiki/Microsoft_Windows"> Windows</a> to jsou např. soubory DRV a SYS (obsahující zejména 
+        ovladače čili drivery, ale i systémové funkce), nebo také 
+        <strong>DLL</strong>
+        (dynamic linking 
+        library - dynamicky linkované knihovny), které mohou být podle potřeby za 
+        běhu (dynamicky) připojeny k jednomu i více programům. 
+    </p>
+    <h3>Spustitelné soubory</h3>
+    <p>Některé soubory s tzv. <strong>spustitelnou příponou</strong> (např. .exe a .com ve Windows, .sh v Linuxu) slouží ke spuštění programu - aktivaci procesu v rámci 
+        operačního systému. Za <strong>rezidentní programy</strong> (služby, démony) označujeme 
+        ty procesy, které jsou spuštěny automaticky po iniciaci operačního systému 
+        (např. antivirové programy)
+        <figure>
+            <img src="../../img/antivirovy_program.jpg" alt="Antivirový program - AVG">
+            <figcaption>Antivirový program - AVG</figcaption>
+        </figure>
+    
+        <h2>Datové soubory</h2>
+        <p><strong>Datové soubory</strong> obsahují data různého charakteru (číselné, textové, 
+        grafické, zvukové údaje). K jejich zpracování se používají konkrétní 
+        programy, a proto jsou často přípony těchto datových souborů asociovány (propojeny) s určitou aplikací (např. DOCX s programem MS 
+        Word, nebo XLSX s programem MS Excel). </p>
+        <p><a href="../b/index.html">Další kapitola - kapitola 2 | Operační systémy </a></p>
+    </main>
+    <footer>
+       <hr>
+       <p>&copy;2022 - Filip Říčný</p>
+
+    </footer>
+    
+</body>
+</html>

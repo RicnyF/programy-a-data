@@ -1,0 +1,97 @@
+body {
+    font-family:Arial, Helvetica, sans-serif ;
+}
+header {
+    background-color: rgb(48, 47, 47);
+   
+    padding: 20px;
+    color: white;
+    margin: 1%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+main{
+    background-color: rgb(63, 65, 63);
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+    footer{
+        background-color: rgb(63, 65, 63);
+        color:  white;
+        text-align: center;
+        margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+        
+        padding: 1%;
+    }
+
+p {
+    font-size: 120%;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 1%;
+}
+li {
+font-size: 20px;
+text-align: start;
+
+}
+li a {
+    color: white;
+}
+ul {
+    padding-left: 10%;
+}
+h1 a {
+    color: white;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(0, 255, 34);
+    font-family: 'Oswald', sans-serif;
+}
+    h2{ 
+    color: rgb(0, 255, 34);
+    background-color: rgb(39, 38, 37);
+    text-align: center;
+    font-size: 40px;
+    padding: 15px;
+    margin-left: 60px; 
+    margin-right: 60px;
+    
+    }
+h3 {
+    color: rgb(14, 192, 38);
+    background-color: rgba(39, 38, 37, 0.699);
+    text-align: center;
+    padding: 15px;
+    font-size: 25px;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    
+}
+html {background-color: rgb(32, 30, 30);}
+strong {
+    color: rgb(0, 255, 34);
+}
+figcaption {
+    text-align: center;
+    margin-top: 5px;
+}
+p a{
+    
+    color: rgb(0, 255, 34);;
+}
